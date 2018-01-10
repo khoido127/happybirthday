@@ -40,7 +40,7 @@ function htt_orion() {
 												return false
 											}
 												
-											if (inputValue !== "little") {
+											if (inputValue !== "Be") {
 												swal
 														.showInputError("Nhập sai rồi kìa :v suy nghĩ đi ");
 												return false
