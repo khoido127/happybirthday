@@ -78,7 +78,7 @@ function htt_orion() {
 																	
 																});
 
-													}, 3000);
+													}, 6000);
 
 										});
 
@@ -91,6 +91,6 @@ function htt_orion() {
 							}
 						});
 
-			}, 8000);
+			}, 18000);
 }
 htt_orion();
