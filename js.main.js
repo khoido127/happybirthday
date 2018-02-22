@@ -34,12 +34,12 @@ function htt_orion() {
 										function(inputValue) {
 											if (inputValue === false)
 												return false;
-											if(inputValue ==""){
+											if (inputValue == "") {
 												swal
-												.showInputError("Không được để trống đâu !!!");
+														.showInputError("Không được để trống đâu !!!");
 												return false
 											}
-												
+
 											if (inputValue !== "Be") {
 												swal
 														.showInputError("Nhập sai rồi kìa :v suy nghĩ đi ");
@@ -50,33 +50,10 @@ function htt_orion() {
 													function() {
 
 														swal(
-																{
-																	title : "Nhập tên món quà nào đó ",
-																	text : "Bé muốn nhận quà gì nào ? ",
-																	type : "input",
-																	showCancelButton : true,
-																	closeOnConfirm : false,
-																	animation : "slide-from-top",
-
-																	inputPlaceholder : "Ôm, Hun, Cõng,.... "
-																},
-																function(
-																		inputValue) {
-																	if (inputValue === false)
-																		return false;
-																	if (inputValue === "") {
-																		swal
-																				.showInputError("Không được để trống đâu ");
-																		return false
-																	}
-																	swal(
-																			"OK ! ",
-																			"Món quà : "
-																					+ inputValue
-																					+ " sẽ xuất hiện trong ít phút nữa hãy đợi nhé, Chúc Một Ngày Sinh Nhật Thật Vui Vẻ Nhé Bé Yêu ^^ ",
-																			"success");
-																	
-																});
+							
+																		"Món Quà Sẽ Xuất Hiện Trong Xíu Xiu Nữa, "
+																		,
+																"Đợi Nhen");
 
 													}, 6000);
 
